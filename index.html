@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="huzla is onboarding the first wave of student entrepreneurs, creators, freelancers, and vendors at Kaduna State University (KASU) before the public launch. Join the first wave.">
+  <meta name="keywords" content="huzla, KASU, Kaduna State University, student marketplace, student entrepreneur, Nigerian campus hustle">
+  <meta name="author" content="huzla">
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="huzla | KASU Supplier Onboarding — The First Wave">
+  <meta property="og:description" content="You sell something. You make something. You have a skill. Put what you do where KASU students can discover you.">
+  <meta property="og:image" content="assets/images/photographer.png">
+  <meta property="og:type" content="website">
+  
+  <title>huzla — KASU Supplier Onboarding (The First Wave)</title>
+
+  <!-- Typography: Satoshi (Fontshare) & Space Grotesk/Mono Fallbacks -->
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- STICKY HEADER / NAVIGATION -->
+  <header class="main-header" id="main-header">
+    <div class="header-container">
+      <a href="#" class="logo" id="header-logo">huzla</a>
+      
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#how-it-works" class="nav-link" id="nav-link-how">How it works</a>
+        <a href="#why-huzla" class="nav-link" id="nav-link-why">Why Huzla</a>
+        <a href="#faq" class="nav-link" id="nav-link-faq">FAQ</a>
+        <button class="btn btn-primary btn-nav join-trigger" id="nav-cta-btn">JOIN THE FIRST WAVE &rarr;</button>
+      </nav>
+
+      <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    
+    <!-- SECTION 1: HERO -->
+    <section class="section hero-section" id="hero">
+      <div class="hero-glow"></div>
+      <div class="container hero-container">
+        <div class="hero-text-content">
+          <span class="eyebrow orange-text" id="hero-eyebrow">KASU, WE SEE YOU.</span>
+          <h1 class="hero-headline" id="hero-title">
+            YOU’VE BUILT SOMETHING.<br>
+            <span class="h-highlight">NOW LET KASU DISCOVER IT.</span>
+          </h1>
+          <p class="hero-supporting-copy" id="hero-desc">
+            You sell something. You make something. You know how to do something people need.
+            huzla is onboarding the first businesses, creators and skilled students on campus before the public launch.
+          </p>
+          <div class="hero-cta-wrapper">
+            <button class="btn btn-primary btn-large join-trigger" id="hero-cta-btn">JOIN THE FIRST WAVE &rarr;</button>
+            <span class="cta-reassurance" id="hero-reassurance">Free to join &bull; Takes a few minutes</span>
+          </div>
+        </div>
+
+        <!-- Editorial collage grid of authentic students -->
+        <div class="hero-collage-grid" id="hero-collage">
+          <div class="collage-item col-item-1" style="background-image: url('assets/images/food_vendor.png');">
+            <div class="collage-tag"><span>Food</span></div>
+          </div>
+          <div class="collage-item col-item-2" style="background-image: url('assets/images/photographer.png');">
+            <div class="collage-tag"><span>Creative</span></div>
+          </div>
+          <div class="collage-item col-item-3" style="background-image: url('assets/images/developer.png');">
+            <div class="collage-tag"><span>Tech</span></div>
+          </div>
+          <div class="collage-item col-item-4" style="background-image: url('assets/images/fashion_seller.png');">
+            <div class="collage-tag"><span>Fashion</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 2: THE RELATABLE PROBLEM -->
+    <section class="section problem-section" id="problem">
+      <div class="container">
+        <div class="section-header center-align">
+          <h2 class="section-title text-uppercase" id="problem-title">BEING GOOD ISN’T ENOUGH IF NOBODY KNOWS YOU EXIST.</h2>
+          <p class="section-desc" id="problem-desc">
+            Right now, finding a good photographer, designer, baker, tutor, vendor or developer can mean asking around, checking WhatsApp statuses or hoping someone sends you the right contact.
+          </p>
+        </div>
+
+        <!-- WhatsApp status query custom interface simulation -->
+        <div class="campus-chat-simulation" id="chat-simulation">
+          <div class="chat-bubble status-bubble position-left" id="cb-1">
+            <div class="bubble-meta">hostel group chat &bull; 10:24 AM</div>
+            <p>&ldquo;Please who knows a good photographer?&rdquo;</p>
+          </div>
+          <div class="chat-bubble status-bubble position-right" id="cb-2">
+            <div class="bubble-meta">KASU department page &bull; 11:15 AM</div>
+            <p>&ldquo;Who designs flyers?&rdquo;</p>
+          </div>
+          <div class="chat-bubble status-bubble position-left" id="cb-3">
+            <div class="bubble-meta">science student &bull; 01:05 PM</div>
+            <p>&ldquo;Anybody selling affordable sneakers?&rdquo;</p>
+          </div>
+          <div class="chat-bubble status-bubble position-right" id="cb-4">
+            <div class="bubble-meta">level 200 chat &bull; 03:42 PM</div>
+            <p>&ldquo;Please I need someone to tutor me in maths.&rdquo;</p>
+          </div>
+          <div class="chat-bubble status-bubble position-left" id="cb-5">
+            <div class="bubble-meta">sociology dept &bull; 05:10 PM</div>
+            <p>&ldquo;Who does cakes around campus?&rdquo;</p>
+          </div>
+        </div>
+
+        <div class="transition-wrapper center-align" id="problem-transition">
+          <p class="transition-label">THE REALITY TRANSITION</p>
+          <h3 class="transition-headline orange-text" id="problem-solution-transition">WHAT IF THEY COULD JUST FIND YOU?</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: THE HUZLA SOLUTION -->
+    <section class="section solution-section" id="how-it-works">
+      <div class="container">
+        <div class="solution-grid">
+          <div class="solution-intro">
+            <h2 class="section-title" id="solution-title">PUT WHAT YOU DO WHERE STUDENTS CAN FIND IT.</h2>
+            <p class="section-desc" id="solution-desc">
+              huzla gives student businesses, creators and skilled individuals a place to showcase what they do and be discovered by students around them.
+            </p>
+            
+            <div class="category-pill-cloud" id="category-pills">
+              <span class="category-pill active">Food</span>
+              <span class="category-pill">Fashion</span>
+              <span class="category-pill">Design</span>
+              <span class="category-pill">Photography</span>
+              <span class="category-pill">Beauty</span>
+              <span class="category-pill">Tech</span>
+              <span class="category-pill">Tutoring</span>
+              <span class="category-pill">Events</span>
+              <span class="category-pill">Creative Services</span>
+              <span class="category-pill">Accessories</span>
+            </div>
+          </div>
+
+          <!-- Polished product listing mockup -->
+          <div class="product-mockup-wrapper" id="product-mockup">
+            <div class="huzla-app-card">
+              <div class="app-card-header">
+                <div class="app-dot red"></div>
+                <div class="app-dot yellow"></div>
+                <div class="app-dot green"></div>
+                <div class="app-search-bar">huzla.app/kasu/the-cake-plug</div>
+              </div>
+              <div class="app-card-body">
+                <div class="vendor-profile-hero">
+                  <div class="vendor-avatar" style="background-image: url('assets/images/food_vendor.png');"></div>
+                  <div class="vendor-meta-info">
+                    <h3>The Cake Plug</h3>
+                    <p class="vendor-handle">@cake_plug &bull; KASU Campus Vendor</p>
+                    <span class="badge-status">Active Supplier</span>
+                  </div>
+                </div>
+                
+                <div class="vendor-services">
+                  <h4>SERVICES &amp; OFFERS</h4>
+                  <div class="service-row">
+                    <span class="service-name">Birthday Cakes (Custom order)</span>
+                    <span class="service-price">₦15,000+</span>
+                  </div>
+                  <div class="service-row">
+                    <span class="service-name">Red Velvet Slices (Instant delivery)</span>
+                    <span class="service-price">₦2,500</span>
+                  </div>
+                  <div class="service-row">
+                    <span class="service-name">Cupcake Pack (Box of 6)</span>
+                    <span class="service-price">₦6,000</span>
+                  </div>
+                </div>
+
+                <div class="vendor-gallery">
+                  <h4>PORTFOLIO</h4>
+                  <div class="gallery-grid">
+                    <div class="gallery-item-placeholder" style="background-image: url('assets/images/food_vendor.png'); background-position: center;"></div>
+                    <div class="gallery-item-placeholder" style="background-image: url('assets/images/fashion_seller.png'); background-position: center;"></div>
+                  </div>
+                </div>
+
+                <div class="app-card-actions">
+                  <button class="btn btn-secondary btn-full" id="mock-whatsapp-btn">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M12.012 2C6.48 2 2.01 6.48 2.01 12c0 2.13.67 4.1 1.82 5.73L2 22l4.43-1.4c1.6.9 3.42 1.4 5.58 1.4 5.53 0 10-4.48 10-10S17.542 2 12.012 2zm6.27 13.9c-.27.75-1.35 1.38-1.85 1.43-.45.05-.9.18-2.92-.63-2.58-1.04-4.22-3.66-4.35-3.83-.13-.17-1.03-1.37-1.03-2.61a2.43 2.43 0 0 1 .74-1.83c.25-.2.53-.28.71-.28.18 0 .36.01.52.02.16.01.38-.06.59.45.21.52.74 1.8.8 1.93.07.13.11.29.02.48-.09.18-.14.3-.28.46-.14.16-.3.35-.43.47-.15.15-.31.31-.13.62.18.3.79 1.3 1.7 2.11.78.7 1.43.91 1.64 1.01.21.1.33.09.46-.05.13-.15.55-.64.7-.86.15-.22.3-.18.5-.1.2.08 1.28.6 1.5.71.22.11.37.17.42.27.06.1.06.58-.21 1.33z"/></svg>
+                    Contact via WhatsApp
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: CULTURAL RELATABILITY -->
+    <section class="section stories-section" id="stories">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title limit-width" id="stories-title">FROM THE GIRL MAKING CAKES IN HER HOSTEL TO THE GUY EVERYONE CALLS WHEN THEY NEED A FLYER.</h2>
+          <p class="section-desc" id="stories-desc">
+            Your campus is already full of people who can do incredible things. huzla makes them easier to find.
+          </p>
+        </div>
+
+        <div class="stories-grid" id="stories-grid-container">
+          <div class="story-card" id="sc-1">
+            <span class="story-category orange-text">BAKER</span>
+            <h3 class="story-title">&ldquo;THE CAKE PLUG&rdquo;</h3>
+            <p class="story-description">Bakes gourmet celebration cakes and delivers fresh slices daily within and around the KASU campus area.</p>
+          </div>
+          <div class="story-card" id="sc-2">
+            <span class="story-category orange-text">GRAPHIC DESIGNER</span>
+            <h3 class="story-title">&ldquo;THE DESIGN GUY&rdquo;</h3>
+            <p class="story-description">Designs executive-level presentation decks, club posters, and student election campaign flyers between lectures.</p>
+          </div>
+          <div class="story-card" id="sc-3">
+            <span class="story-category orange-text">PHOTOGRAPHER</span>
+            <h3 class="story-title">&ldquo;THE PHOTOGRAPHER&rdquo;</h3>
+            <p class="story-description">Captures student matriculations, hostellers' birthdays, and candid portraits around Kaduna State University campus.</p>
+          </div>
+          <div class="story-card" id="sc-4">
+            <span class="story-category orange-text">FASHION SELLER</span>
+            <h3 class="story-title">&ldquo;THE THRIFT PLUG&rdquo;</h3>
+            <p class="story-description">Curates affordable vintage streetwear and delivers handpicked clothing directly to hostellers and off-campus students.</p>
+          </div>
+          <div class="story-card" id="sc-5">
+            <span class="story-category orange-text">ACADEMIC TUTOR</span>
+            <h3 class="story-title">&ldquo;THE TUTOR&rdquo;</h3>
+            <p class="story-description">Conducts specialized exam prep tutorials for maths, stats, and engineering subjects, helping students pull up grades.</p>
+          </div>
+          <div class="story-card" id="sc-6">
+            <span class="story-category orange-text">DEVELOPER</span>
+            <h3 class="story-title">&ldquo;THE TECH GUY&rdquo;</h3>
+            <p class="story-description">Builds web portfolios, fixes React bugs, and handles database tasks for local businesses while maintaining 4.0 GP.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WHAT THEY GET -->
+    <section class="section benefits-section" id="why-huzla">
+      <div class="container">
+        <div class="section-header center-align">
+          <span class="eyebrow orange-text" id="benefits-eyebrow">THE MEMBER BENEFITS</span>
+          <h2 class="section-title text-uppercase" id="benefits-title">WHY JOIN THE FIRST WAVE?</h2>
+        </div>
+
+        <div class="benefits-grid" id="benefits-grid-container">
+          <!-- Card 01 -->
+          <div class="benefit-card" id="bc-1">
+            <div class="benefit-num">01</div>
+            <h3 class="benefit-title">GET DISCOVERED</h3>
+            <p class="benefit-text">Put your products, skills or services where students can find them. No more relying strictly on word of mouth or expired WhatsApp status links.</p>
+          </div>
+          <!-- Card 02 -->
+          <div class="benefit-card" id="bc-2">
+            <div class="benefit-num">02</div>
+            <h3 class="benefit-title">BUILD YOUR PRESENCE</h3>
+            <p class="benefit-text">Create a profile that shows people what you do, what you offer, details of past work, and how students can reach you instantly.</p>
+          </div>
+          <!-- Card 03 -->
+          <div class="benefit-card" id="bc-3">
+            <div class="benefit-num">03</div>
+            <h3 class="benefit-title">GET FEATURED</h3>
+            <p class="benefit-text">Selected First Wave members can be featured across huzla’s upcoming campus campaigns, social media, and university network channels.</p>
+          </div>
+          <!-- Card 04 -->
+          <div class="benefit-card" id="bc-4">
+            <div class="benefit-num">04</div>
+            <h3 class="benefit-title">BE EARLY</h3>
+            <p class="benefit-text">Be among the first businesses and creators shaping how students discover one another, build audiences, and barter services on KASU campus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: FIRST WAVE STATUS -->
+    <section class="section status-section" id="first-wave-status">
+      <div class="status-glow"></div>
+      <div class="container status-container">
+        <div class="status-text-content">
+          <h2 class="status-headline" id="status-title-1">THE FIRST PEOPLE ON HUZLA SHOULDN’T JUST BE USERS.</h2>
+          <h3 class="status-subheadline orange-text" id="status-title-2">They should be the people who helped build it.</h3>
+          
+          <div class="first-wave-badge-block">
+            <span class="first-wave-eyebrow">INTRODUCING</span>
+            <h4 class="first-wave-title">THE FIRST WAVE</h4>
+            <p class="status-description" id="status-desc">
+              The first businesses, creators and skilled students joining huzla at KASU will become part of The First Wave — the early community helping shape how opportunities are discovered on campus.
+            </p>
+          </div>
+        </div>
+
+        <!-- Custom CSS Animated Badge Graphic -->
+        <div class="status-visual-block" id="badge-block">
+          <div class="badge-ring-outer">
+            <div class="badge-ring-inner">
+              <div class="badge-core">
+                <span class="badge-logo">huzla</span>
+                <span class="badge-label">KASU 2026</span>
+              </div>
+            </div>
+            <svg class="badge-svg-text" viewBox="0 0 200 200">
+              <path id="badge-text-path" d="M 100, 100 m -70, 0 a 70,70 0 1,1 140,0 a 70,70 0 1,1 -140,0" fill="none"></path>
+              <text><textPath href="#badge-text-path" class="badge-rotating-text">THE FIRST WAVE &bull; FOUNDING SUPPLIER &bull; THE FIRST WAVE &bull;</textPath></text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: SOCIAL PROOF -->
+    <section class="section social-section" id="social-proof">
+      <div class="container">
+        <div class="section-header center-align">
+          <span class="eyebrow orange-text" id="social-eyebrow">CAMPUS VOICES</span>
+          <h2 class="section-title text-uppercase" id="social-title">THE PEOPLE ALREADY BUILDING WITH US.</h2>
+        </div>
+
+        <div class="social-grid" id="testimonials-container">
+          <!-- User 1 -->
+          <div class="social-card" id="tc-1">
+            <div class="social-user-header">
+              <div class="social-user-avatar" style="background-image: url('assets/images/photographer.png');"></div>
+              <div class="social-user-info">
+                <h4>Femi Alao</h4>
+                <span>Photographer &bull; KASU</span>
+              </div>
+            </div>
+            <p class="social-quote">
+              &ldquo;Before huzla, most people found my business through WhatsApp status. I like that students can now actually discover what I do without me having to repost links everyday.&rdquo;
+            </p>
+          </div>
+          <!-- User 2 -->
+          <div class="social-card" id="tc-2">
+            <div class="social-user-header">
+              <div class="social-user-avatar" style="background-image: url('assets/images/fashion_seller.png');"></div>
+              <div class="social-user-info">
+                <h4>Amina Bello</h4>
+                <span>Thrift Fashion Vendor &bull; KASU</span>
+              </div>
+            </div>
+            <p class="social-quote">
+              &ldquo;Getting buyers on campus was all about who knew who. Being part of the First Wave means any student looking for affordable sneakers can find my hostel room catalog easily.&rdquo;
+            </p>
+          </div>
+          <!-- User 3 -->
+          <div class="social-card" id="tc-3">
+            <div class="social-user-header">
+              <div class="social-user-avatar" style="background-image: url('assets/images/developer.png');"></div>
+              <div class="social-user-info">
+                <h4>Tunde Okafor</h4>
+                <span>Developer &bull; KASU</span>
+              </div>
+            </div>
+            <p class="social-quote">
+              &ldquo;I do freelance coding, but KASU students didn't know because I don't post tech stuff on my normal social media. huzla is the perfect platform to show campus my actual portfolio.&rdquo;
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: OBJECTION HANDLING -->
+    <section class="section faq-section" id="faq">
+      <div class="container faq-container">
+        <div class="faq-intro">
+          <span class="eyebrow orange-text" id="faq-eyebrow">COMMON QUESTIONS</span>
+          <h2 class="section-title text-uppercase" id="faq-title">GOT QUESTIONS? WE’VE GOT ANSWERS.</h2>
+          <p class="section-desc">Everything you need to know about joining the First Wave onboarding at KASU.</p>
+        </div>
+
+        <div class="faq-accordion-group" id="faq-accordion">
+          
+          <div class="faq-item" id="faq-item-1">
+            <button class="faq-question" id="faq-btn-1">
+              <span>Is joining free?</span>
+              <span class="faq-icon">&plus;</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-1">
+              <p>Yes. Joining The First Wave is 100% free. There are no registration fees, hidden charges, or monthly subscriptions to maintain your supplier listing on campus.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faq-item-2">
+            <button class="faq-question" id="faq-btn-2">
+              <span>What can I list?</span>
+              <span class="faq-icon">&plus;</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-2">
+              <p>You can list physical products (clothing, pastries, accessories, gadgets), digital products, personal services (tutoring, hair grooming, makeup, tailoring), creative services (photography, graphic design, content creation), events, and campus projects.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faq-item-3">
+            <button class="faq-question" id="faq-btn-3">
+              <span>I’m not a registered business. Can I still join?</span>
+              <span class="faq-icon">&plus;</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-3">
+              <p>Absolutely. You do not need to be a formal company. If you are a student freelancer, skilled individual, or someone who provides side-hustle services, you are welcome to list your skills on huzla.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faq-item-4">
+            <button class="faq-question" id="faq-btn-4">
+              <span>I already use WhatsApp or Instagram. Why do I need Huzla?</span>
+              <span class="faq-icon">&plus;</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-4">
+              <p>huzla works alongside WhatsApp and Instagram. While they are great for keeping in touch with existing contacts, huzla specifically helps campus students who do not have your number to discover you in search listings when they need your specific services.</p>
+            </div>
+          </div>
+
+          <div class="faq-item" id="faq-item-5">
+            <button class="faq-question" id="faq-btn-5">
+              <span>How long does it take?</span>
+              <span class="faq-icon">&plus;</span>
+            </button>
+            <div class="faq-answer" id="faq-answer-5">
+              <p>It takes less than 3 minutes to submit your details and join the queue. Once approved, we will set up your foundational campus profile in preparation for the launch.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: FINAL CTA -->
+    <section class="section final-cta-section" id="final-cta">
+      <div class="container center-align">
+        <h2 class="final-headline" id="final-cta-title-1">THE CAMPUS IS FULL OF TALENT.</h2>
+        <h3 class="final-subheadline orange-text" id="final-cta-title-2">LET’S MAKE IT EASIER TO FIND.</h3>
+        
+        <p class="final-desc" id="final-cta-desc">
+          Join the first businesses, creators and skilled students building the huzla community at KASU.
+        </p>
+
+        <div class="final-cta-wrapper">
+          <button class="btn btn-primary btn-large join-trigger" id="final-cta-submit-btn">JOIN THE FIRST WAVE &rarr;</button>
+          <span class="cta-reassurance" id="final-cta-reassurance">Free to join &bull; Takes a few minutes</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="main-footer" id="main-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="logo footer-logo" id="footer-logo-wordmark">huzla</span>
+        <p class="footer-tagline">Discover talents. Build together. Endless opportunities.</p>
+      </div>
+      <div class="footer-right">
+        <span class="footer-campus">&bull; Kaduna State University (KASU) Chapter</span>
+        <span class="footer-copyright">&copy; 2026 huzla. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- DYNAMIC MODAL SIGNUP FLOW -->
+  <div class="modal-overlay" id="join-modal">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      
+      <!-- Multi-step Progress Bar -->
+      <div class="modal-progress">
+        <div class="progress-bar-fill" id="progress-bar-fill"></div>
+      </div>
+
+      <form id="join-form" class="modal-form">
+        
+        <!-- STEP 1: General Info -->
+        <div class="form-step active" id="form-step-1">
+          <h3 class="modal-step-title">TELL US ABOUT YOUR HUSTLE</h3>
+          <p class="modal-step-subtitle">Step 1 of 3: The basics</p>
+          
+          <div class="form-group">
+            <label for="input-name">What is your name?</label>
+            <input type="text" id="input-name" placeholder="e.g. Femi Alao" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="select-category">What category fits you best?</label>
+            <select id="select-category" required>
+              <option value="" disabled selected>Select category...</option>
+              <option value="Food">Food / Baking</option>
+              <option value="Fashion">Fashion / Thrift</option>
+              <option value="Design">Graphic Design / Art</option>
+              <option value="Photography">Photography / Videography</option>
+              <option value="Beauty">Beauty / Grooming</option>
+              <option value="Tech">Coding / Technical services</option>
+              <option value="Tutoring">Academic Tutoring</option>
+              <option value="Other">Other Skills &amp; Services</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="input-brand">What is your business or freelance name?</label>
+            <input type="text" id="input-brand" placeholder="e.g. The Cake Plug (Leave empty if none)">
+          </div>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary btn-full next-step-btn" id="step1-next-btn">Next Step &rarr;</button>
+          </div>
+        </div>
+
+        <!-- STEP 2: Pitch & Contacts -->
+        <div class="form-step" id="form-step-2">
+          <h3 class="modal-step-title">PITCH YOUR WORK</h3>
+          <p class="modal-step-subtitle">Step 2 of 3: Stand out to students</p>
+          
+          <div class="form-group">
+            <label for="textarea-pitch">What do you do, make, or sell?</label>
+            <textarea id="textarea-pitch" rows="3" placeholder="e.g. I bake gourmet chocolate cakes in my hostel room and offer free deliveries to KASU gate..." required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="input-whatsapp">Your WhatsApp Phone Number</label>
+            <input type="tel" id="input-whatsapp" placeholder="e.g. +234 812 345 6789" required>
+            <span class="input-note">We use WhatsApp to link customers directly to you.</span>
+          </div>
+
+          <div class="form-group">
+            <label for="input-instagram">Instagram Handle (Optional)</label>
+            <input type="text" id="input-instagram" placeholder="e.g. @yourhustle">
+          </div>
+
+          <div class="form-actions split-actions">
+            <button type="button" class="btn btn-secondary prev-step-btn" id="step2-prev-btn">&larr; Back</button>
+            <button type="submit" class="btn btn-primary submit-form-btn" id="step2-submit-btn">Get Early Access &rarr;</button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Success Confirmation -->
+        <div class="form-step" id="form-step-3">
+          <div class="success-illustration">
+            <div class="checkmark-circle">
+              <svg viewBox="0 0 52 52" class="checkmark-svg">
+                <circle cx="26" cy="26" r="25" fill="none" class="checkmark-circle-path"></circle>
+                <path d="M14.1 27.2l7.1 7.2 16.7-16.8" fill="none" class="checkmark-check"></path>
+              </svg>
+            </div>
+          </div>
+          <h3 class="modal-step-title orange-text">YOU ARE ON THE LIST!</h3>
+          <p class="modal-step-subtitle">You have successfully joined The First Wave at KASU.</p>
+          
+          <div class="success-badge-card">
+            <div class="s-badge-logo">huzla</div>
+            <div class="s-badge-title">FIRST WAVE MEMBER</div>
+            <div class="s-badge-details">
+              <p>Supplier Status: <span class="green-text">Reserved</span></p>
+              <p>Location: KASU Campus</p>
+              <p class="s-badge-id">Wave Token: #FW-KASU-8492</p>
+            </div>
+          </div>
+          
+          <p class="success-next-steps">
+            We will contact you via WhatsApp shortly to verify your profile and showcase your services before the campus launch.
+          </p>
+
+          <div class="form-actions">
+            <button type="button" class="btn btn-primary btn-full close-modal-btn" id="success-done-btn">Done</button>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
