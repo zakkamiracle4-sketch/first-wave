@@ -122,15 +122,41 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.innerHTML = 'Reserving your spot...';
       submitBtn.disabled = true;
 
-      // Simulate network request delay (1.2 seconds)
+      // Compile form data for the WhatsApp message
+      const name = inputName.value;
+      const category = selectCategory.value;
+      const brand = inputBrand.value || 'None (Individual)';
+      const pitch = textareaPitch.value;
+      const whatsapp = inputWhatsapp.value;
+      const instagram = document.getElementById('input-instagram').value || 'None';
+
+      const messageText = `Hi huzla! 🚀 I want to join The First Wave at KASU.
+
+Here are my supplier details:
+• Name: ${name}
+• Category: ${category}
+• Brand/Hustle: ${brand}
+• What I do: ${pitch}
+• WhatsApp: ${whatsapp}
+• Instagram: ${instagram}`;
+
+      // Open WhatsApp link in a new tab (2348092267124)
+      const targetPhone = '2348092267124';
+      const whatsappUrl = `https://wa.me/${targetPhone}?text=${encodeURIComponent(messageText)}`;
+
+      // Delay transition to simulate verification and allow WhatsApp tab to trigger cleanly
       setTimeout(() => {
         submitBtn.disabled = false;
         submitBtn.innerHTML = originalBtnText;
 
+        // Open WhatsApp redirect
+        window.open(whatsappUrl, '_blank');
+
+        // Transition modal to Success screen
         step2.classList.remove('active');
         step3.classList.add('active');
         progressBarFill.style.width = '100%';
-      }, 1200);
+      }, 1000);
     });
   }
 
